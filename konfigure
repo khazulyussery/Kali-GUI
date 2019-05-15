@@ -1,0 +1,13 @@
+#!/bin/bash
+
+clear
+figlet -f big khazul | lolcat
+echo
+date | lolcat
+echo
+printf "\033[1;35m [+] Mulai ... \n"
+echo
+apt update
+apt upgrade
+apt install nano
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+clear
+figlet -f big Khazul
+sleep 3
+clear
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+pkg install python2
+pkg install cowsay
+pkg install figlet
+pkg install toilet
+gem install lolcat
+echo
+printf "\033[1;36m Selamat Menikmati \n"
+sleep 3
+python2 kali.py
